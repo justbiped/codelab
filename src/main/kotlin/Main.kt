@@ -1,7 +1,34 @@
-package org.example
+import com.google.gson.Gson
+import java.io.File
+
+data class Address(
+    val street: String,
+    val number: String,
+    val cep: String,
+    val city: String,
+    val state: String,
+    val country: String
+)
+
+data class Itinerary(
+    val day: String,
+    val startTime: String,
+    val endTime: String
+)
+
+data class Restaurante(
+    val name: String,
+    val rating: Double,
+    val address: Address,
+    val itinerary: List<Itinerary>
+)
 
 fun main() {
-    println("Hello World!")
+    val jsonFile = File("/Users/vitorlopes/Documents/Biped/Gradle/codelab/src/main/kotlin/dataRestaurants.json")
+    val json = jsonFile.readText()
+
+    val restaurante = Gson().fromJson(json, Restaurante::class.java)
+    println(restaurante)
 }
 
 /**

@@ -1,0 +1,39 @@
+{
+  "name": "Ah!Butequeria",
+  "rating": 4.9,
+  "address": {
+    "street": "Rua Paulo Frontim",
+    "number": "240",
+    "cep": "30430012",
+    "city": "Curvelo",
+    "state": "Minas Gerais",
+    "country": "Brazil"
+  },
+  "itinerary": [
+    {
+      "day": "2024-03-04",
+      "startTime": "9:00 AM",
+      "endTime": "6:00 PM"
+    },
+    {
+      "day": "2024-03-05",
+      "startTime": "9:00 AM",
+      "endTime": "6:00 PM"
+    },
+    {
+      "day": "2024-03-06",
+      "startTime": "9:00 AM",
+      "endTime": "6:00 PM"
+    },
+    {
+      "day": "2024-03-07",
+      "startTime": "9:00 AM",
+      "endTime": "6:00 PM"
+    },
+    {
+      "day": "2024-03-08",
+      "startTime": "9:00 AM",
+      "endTime": "6:00 PM"
+    }
+  ]
+}
