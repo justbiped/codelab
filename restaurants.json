@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Ah!Butequeria",
+    "rating": 4.9,
+    "address": {
+      "street": "Rua Paulo Frontim",
+      "number": "240",
+      "cep": "30430012",
+      "city": "Curvelo",
+      "state": "Minas Gerais",
+      "country": "Brazil"
+    },
+    "itinerary": [
+      {
+        "day": "Monday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Friday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      }
+    ]
+  },
+  {
+    "name": "Vamo Quebrar ",
+    "rating": 5,
+    "address": {
+      "street": "Rua da Danca",
+      "number": "101",
+      "cep": "30240290",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "country": "Brazil"
+    },
+    "itinerary": [
+      {
+        "day": "Monday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Friday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      }
+    ]
+  }
+]

@@ -1,25 +1,34 @@
 package org.example
 
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+import java.io.File
+
+val gson = Gson()
+
 fun main() {
-    println("Hello World!")
+    val restaurantJson = File("restaurants.json").readText()
+
+    val listType = object : TypeToken<List<Restaurant>>() {}.type
+    val restaurants: List<Restaurant> = gson.fromJson(restaurantJson, listType)
 }
 
-/**
- * Criar uma classe Kotlin representando um objeto restaurante
- * O restaurante contem os seguintes campos
+/** No momento temos apenas uma lista de restaurantes... Mas devemos dar suporte a cafeterias
+ * --- Quick info .. Todoo objeto em java e kotlin possuem o método toString()
+ *
+ * Ao dar print num restaurante, ele deve apresentar seus dados no seguinte formato
  * Nome
- * Endreço -> é um objecto com os seguintes campos (Rua: Texto, Numero: Texto, CEP: Texto, Cidade : Texto, Estado : Texto, Pais: Texto)
- * Entinerário: É um objeto que vai ter uma lista de working hours
- * Working hours é um objeto com os campos (Dia: Day, Horario Início: String, Horário Fim: String) .. Sobre o dia/ Day, tenta fazer o melhor, mas vamo achar a melhor maneira juntos se precisar
- * Rating (Avaliação) É um campo double de 0 a 5 estrelas
+ * Endereço em linha
+ * Rating
  *
- * NÃO VAMOS INSTANCIAR ESSE OBJETO RESTAURANTE, ou seja, não vamos construir ele na mão, vamos criar um arquivo JSON
- * Esse arquivo vai representar o objeto Restaurante com todos os valores definidos
+ * Ao dar print numa cafeteria, devemos apresentar seus dados no seguinte formato
+ * Nome
+ * Rating
+ * Endereço em linha
  *
- * Então eis aqui a tarefa...
- * Ler o arquivo .json
- * Chamar o parser de jSOn para criar o objeto restaurante a partir do arquivo json
- * Imprimir o objeto restaurante -> print(restaurante)
+ * Proibido usar if e else para o print, fica a dica :sunglass:
  *
- * O parser de JSON a ser usado é o GSON, sua dependencia deve ser adicionada no arquivo build.gradle.kts... aprenda :sunglass:
- */
+ * Crie uma função customizada para receber restaurantes e cafeterias e imprimi-los, exemplo, prettyPrint :)
+ *
+ * Dica: Polimorfismo
+**/
