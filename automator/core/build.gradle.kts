@@ -1,6 +1,5 @@
 plugins {
     kotlin("jvm")
-    id("com.google.devtools.ksp") version "1.9.21-1.0.16"
 }
 
 group = "org.example"
@@ -11,8 +10,6 @@ repositories {
 }
 
 dependencies {
-    implementation(project(":automator:core"))
-    ksp(project(":automator:processor"))
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 

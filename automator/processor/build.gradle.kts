@@ -1,6 +1,5 @@
 plugins {
     kotlin("jvm")
-    id("com.google.devtools.ksp") version "1.9.21-1.0.16"
 }
 
 group = "org.example"
@@ -12,7 +11,11 @@ repositories {
 
 dependencies {
     implementation(project(":automator:core"))
-    ksp(project(":automator:processor"))
+    implementation("com.google.devtools.ksp:symbol-processing-api:1.9.21-1.0.16")
+
+    implementation("com.squareup:kotlinpoet:1.16.0")
+    implementation("com.squareup:kotlinpoet-ksp:1.16.0")
+
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
