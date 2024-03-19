@@ -1,7 +1,14 @@
 package org.example
 
+import java.io.File
+
 fun main() {
     println("Hello World!")
+
+val restauranteJso= File("/home/wilker/codelab/src/main/restaurante.json").readText()
+    println(restauranteJso)
+
+
 }
 
 /**

@@ -1,0 +1,22 @@
+{
+  "name": "Comida Mineira",
+  "rating": "5",
+  "endereco": {
+    "country": "Brasil",
+    "city": "Conceicao do Para",
+    "road": "Road 01",
+    "number": "1110",
+    "neighborhood": "Centro",
+    "state": "Minas Gerais"
+  },
+  "itinerary": {
+    "start_Hours": "08:00",
+    "end_Hours": "20:00",
+    "day": "Monday, tuesday,Wednesday,thursday,Friday"
+  }
+}
+
+
+
+
+
