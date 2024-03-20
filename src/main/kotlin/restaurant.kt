@@ -1,10 +1,10 @@
 package org.example
 
-class restaurante (
+class Restaurant (
  var name: String,
  var rating :Double
 )
-class endereco(
+class Adress(
  var country:String,
  var city: String,
  var road: String,
@@ -13,7 +13,7 @@ class endereco(
  var state: String
 
 )
-class itinerary(
+class Itinerary(
     var start_Hourts:String,
     var end_Hours:String,
     var day:String

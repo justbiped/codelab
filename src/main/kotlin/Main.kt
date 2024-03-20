@@ -1,13 +1,15 @@
 package org.example
+import com.google.gson.Gson
 
 import java.io.File
-
 fun main() {
     println("Hello World!")
 
 val restauranteJso= File("/home/wilker/codelab/src/main/restaurante.json").readText()
-    println(restauranteJso)
-
+    //println(restauranteJso)
+val gson = Gson()
+    val restaurant = gson.fromJson(restauranteJso,Restaurant::class.java)
+    println(restaurant.name)
 
 }
 
