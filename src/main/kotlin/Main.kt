@@ -39,10 +39,6 @@ data class Itinerary(
 )
 fun prettyPrint(commercialPlace: List<CommercialPlace>) {
     commercialPlace.forEach { commercialPlace ->
-        println("Name: ${commercialPlace.name}")
-        println("Address: ${commercialPlace.address}")
-        println("Rating: ${commercialPlace.rating}")
-
         when (commercialPlace) {
             is CoffeeShop -> println("Name: ${commercialPlace.name}, Rating: ${commercialPlace.rating}, Address: ${commercialPlace.address}")
             is Restaurants -> println("Name: ${commercialPlace.name}, Address: ${commercialPlace.address} Rating: ${commercialPlace.rating},")
