@@ -1,4 +1,5 @@
-{
+[
+  {
   "name": "Ah!Butequeria",
   "rating": 4.9,
   "address": {
@@ -11,29 +12,187 @@
   },
   "itinerary": [
     {
-      "day": "2024-03-04",
+      "day": "Monday",
       "startTime": "9:00 AM",
       "endTime": "6:00 PM"
     },
     {
-      "day": "2024-03-05",
+      "day": "Tuesday",
       "startTime": "9:00 AM",
       "endTime": "6:00 PM"
     },
     {
-      "day": "2024-03-06",
+      "day": "Wednesday",
       "startTime": "9:00 AM",
       "endTime": "6:00 PM"
     },
     {
-      "day": "2024-03-07",
+      "day": "Thursday",
       "startTime": "9:00 AM",
       "endTime": "6:00 PM"
     },
     {
-      "day": "2024-03-08",
+      "day": "Friday",
       "startTime": "9:00 AM",
       "endTime": "6:00 PM"
     }
   ]
-}
+  },
+
+  {
+    "name": "Emporio Donna Thê",
+    "rating": 5.0,
+    "address": {
+      "street": "Praça José Júlio Mascarenhas",
+      "number": "55",
+      "cep": "30430012",
+      "city": "Curvelo",
+      "state": "Minas Gerais",
+      "country": "Brazil"
+    },
+    "itinerary": [
+      {
+        "day": "Monday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Friday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      }
+    ]
+  },
+  {
+    "name": "Canela Amarela",
+    "rating": 4.7,
+    "address": {
+      "street": "Praça Leonardo Gutierrez",
+      "number": "129",
+      "cep": "30430012",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "country": "Brazil"
+    },
+    "itinerary": [
+      {
+        "day": "Monday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Friday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      }
+    ]
+  },
+  {
+    "name": "EdCoffee",
+    "rating": 5.0,
+    "address": {
+      "street": "Rua Dante",
+      "number": "420",
+      "cep": "30430012",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "country": "Brazil"
+    },
+    "itinerary": [
+      {
+        "day": "Monday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Friday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      }
+    ]
+  },
+  {
+    "name": "Cafeteria dúViton",
+    "rating": 4.9,
+    "address": {
+      "street": "Rua Estácio de Sá",
+      "number": "196",
+      "cep": "30430012",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "country": "Brazil"
+    },
+    "itinerary": [
+      {
+        "day": "Monday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      },
+      {
+        "day": "Friday",
+        "startTime": "9:00 AM",
+        "endTime": "6:00 PM"
+      }
+    ]
+  }
+]

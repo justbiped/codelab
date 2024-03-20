@@ -1,6 +1,28 @@
+package org.example
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import java.io.File
 
+
+val gson = Gson()
+
+open class CommercialPlace(
+    val name: String,
+    val address: String,
+    val rating: Double
+)
+class CoffeeShop(
+    name: String,
+    address: String,
+    rating: Double
+) : CommercialPlace(name, address, rating)
+
+class Restaurants(
+    name: String,
+    address: String,
+    rating: Double,
+    val itinerary: List<Itinerary>
+) : CommercialPlace(name, address, rating)
 data class Address(
     val street: String,
     val number: String,
@@ -15,38 +37,33 @@ data class Itinerary(
     val startTime: String,
     val endTime: String
 )
+fun prettyPrint(commercialPlace: List<CommercialPlace>) {
+    commercialPlace.forEach { commercialPlace ->
+        println("Name: ${commercialPlace.name}")
+        println("Address: ${commercialPlace.address}")
+        println("Rating: ${commercialPlace.rating}")
 
-data class Restaurante(
-    val name: String,
-    val rating: Double,
-    val address: Address,
-    val itinerary: List<Itinerary>
-)
+        when (commercialPlace) {
+            is CoffeeShop -> println("Name: ${commercialPlace.name}, Rating: ${commercialPlace.rating}, Address: ${commercialPlace.address}")
+            is Restaurants -> println("Name: ${commercialPlace.name}, Address: ${commercialPlace.address} Rating: ${commercialPlace.rating},")
+        }
 
-fun main() {
-    val jsonFile = File("/Users/vitorlopes/Documents/Biped/Gradle/codelab/src/main/kotlin/dataRestaurants.json")
-    val json = jsonFile.readText()
-
-    val restaurante = Gson().fromJson(json, Restaurante::class.java)
-    println(restaurante)
+        println()
+    }
 }
 
-/**
- * Criar uma classe Kotlin representando um objeto restaurante
- * O restaurante contem os seguintes campos
- * Nome
- * Endreço -> é um objecto com os seguintes campos (Rua: Texto, Numero: Texto, CEP: Texto, Cidade : Texto, Estado : Texto, Pais: Texto)
- * Entinerário: É um objeto que vai ter uma lista de working hours
- * Working hours é um objeto com os campos (Dia: Day, Horario Início: String, Horário Fim: String) .. Sobre o dia/ Day, tenta fazer o melhor, mas vamo achar a melhor maneira juntos se precisar
- * Rating (Avaliação) É um campo double de 0 a 5 estrelas
- *
- * NÃO VAMOS INSTANCIAR ESSE OBJETO RESTAURANTE, ou seja, não vamos construir ele na mão, vamos criar um arquivo JSON
- * Esse arquivo vai representar o objeto Restaurante com todos os valores definidos
- *
- * Então eis aqui a tarefa...
- * Ler o arquivo .json
- * Chamar o parser de jSOn para criar o objeto restaurante a partir do arquivo json
- * Imprimir o objeto restaurante -> print(restaurante)
- *
- * O parser de JSON a ser usado é o GSON, sua dependencia deve ser adicionada no arquivo build.gradle.kts... aprenda :sunglass:
- */
+fun main() {
+    val jsonFile = File("src\\main\\kotlin\\dataRestaurants.json")
+    val json = jsonFile.readText()
+    //val listType = object : TypeToken<List<CommercialPlace>>() {}.type
+    //val commercialPlace: List<CommercialPlace> = gson.fromJson(json, listType)
+    val commercialPlace: List<CommercialPlace> = Gson().fromJson(json, Array<CommercialPlace>::class.java).toList()
+
+    prettyPrint(commercialPlace)
+}
+
+
+
+
+
+
