@@ -15,8 +15,7 @@ dependencies {
 
     implementation("com.squareup:kotlinpoet:1.16.0")
     implementation("com.squareup:kotlinpoet-ksp:1.16.0")
-
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
+    implementation("junit:junit:4.4")
 }
 
 tasks.test {

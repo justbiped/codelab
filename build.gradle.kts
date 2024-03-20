@@ -11,8 +11,10 @@ repositories {
 }
 
 dependencies {
-    implementation(project(":automator:core"))
-    ksp(project(":automator:processor"))
+    testImplementation(project(":automator:core"))
+    kspTest(project(":automator:processor"))
+
+    implementation("junit:junit:4.4")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
