@@ -1,0 +1,49 @@
+{
+  "restaurant": {
+    "name": "Restaurante do Chef",
+    "rating": "4.0",
+    "adress": {
+      "country": "Brasil",
+      "city": "Conceicao do Para",
+      "road": "Martinho Lemos",
+      "number": "1110",
+      "neighborhood": "centro",
+      "state": "Minas Gerais"
+    },
+    "workingHours": [
+      {
+        "day": "Segunda",
+        "start_Hours": "08:00",
+        "end_Hours": "15:00"
+      },
+      {
+        "day": "Terça",
+        "start_Hours": "08:00",
+        "end_Hours": "15:00"
+      },
+      {
+        "day": "Quarta",
+        "start_Hours": "08:00",
+        "end_Hours": "15:00"
+      },
+      {
+        "day": "Quinta",
+        "start_Hours": "08:00",
+        "end_Hours": "15:00"
+      },
+      {
+        "day": "Sexta",
+        "start_Hours": "08:00",
+        "end_Hours": "15:00"
+      },
+      {
+        "day": "Sabado",
+        "start_Hours": "08:00",
+        "end_Hours": "15:00"
+      }
+    ],
+    "itinerary": {
+      "workingHours": "List<WorkingHours>"
+    }
+  }
+}

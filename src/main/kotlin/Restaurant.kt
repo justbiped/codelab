@@ -1,11 +1,11 @@
 
 package org.example
-class Restaurant
 
-fun main() {
     class Restaurant(
         var name: String,
-        var rating: Double
+        var rating: Double,
+        var adress: Adress,
+        var itinerary: Itinerary
     )
     class Adress(
         var country: String,
@@ -23,7 +23,6 @@ fun main() {
     class Itinerary(
         var workingHours: List<WorkingHours>
     )
-}
 
 
 

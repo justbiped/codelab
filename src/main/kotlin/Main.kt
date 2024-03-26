@@ -9,10 +9,9 @@ val restauranteJso= File("/home/wilker/Documentos/codelab/src/main/restaurante.j
 val gson = Gson()
     val restaurant = gson.fromJson(restauranteJso,Restaurant::class.java)
     println(restaurant.name)
-
-
-
-
+    println(restaurant.rating)
+    println(restaurant.adress)
+    println(restaurant.itinerary)
 }
 
 /**
