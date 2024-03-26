@@ -1,7 +1,7 @@
 package org.example
 import com.google.gson.Gson
-
 import java.io.File
+
 fun main() {
 
 val restauranteJso= File("/home/wilker/Documentos/codelab/src/main/restaurante.json").readText()
