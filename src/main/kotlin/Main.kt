@@ -1,24 +1,39 @@
 package org.example
 
+import java.io.File
+
 fun main() {
+
 }
 
 /**
- * Criar uma classe Kotlin representando um objeto restaurante
- * O restaurante contem os seguintes campos
- * Nome
- * Endreço -> é um objecto com os seguintes campos (Rua: Texto, Numero: Texto, CEP: Texto, Cidade : Texto, Estado : Texto, Pais: Texto)
- * Entinerário: É um objeto que vai ter uma lista de working hours
- * Working hours é um objeto com os campos (Dia: Day, Horario Início: String, Horário Fim: String) .. Sobre o dia/ Day, tenta fazer o melhor, mas vamo achar a melhor maneira juntos se precisar
- * Rating (Avaliação) É um campo double de 0 a 5 estrelas
- *
- * NÃO VAMOS INSTANCIAR ESSE OBJETO RESTAURANTE, ou seja, não vamos construir ele na mão, vamos criar um arquivo JSON
- * Esse arquivo vai representar o objeto Restaurante com todos os valores definidos
- *
- * Então eis aqui a tarefa...
- * Ler o arquivo .json
- * Chamar o parser de jSOn para criar o objeto restaurante a partir do arquivo json
- * Imprimir o objeto restaurante -> print(restaurante)
- *
- * O parser de JSON a ser usado é o GSON, sua dependencia deve ser adicionada no arquivo build.gradle.kts... aprenda :sunglass:
+Exercício…
+Criar um arquivo JSON que represente as seguintes entidades….
+Eu tenho um Posto de gasolina
+Esse posto de gasolina tem bombas
+A bomba tem informações de (combustíveis aceitos, potência e número de registro) (edited)
+6:02
+O posto de gasolina também tem funcionários
+6:03
+Cada funcionário tem nome, sobrenome, idade, tempo de empresa e salário e endereço
+6:03
+O posto também tem endereço
+6:05
+Posto
+Bombas de gasolina
+Funcionários
+Endereço
+Nome
+Registro na ANP
+Bomba
+Combustíveis aceitos
+potência
+Numero de registro
+Funcionário
+Nome
+Sobrenome
+Idade
+Tempo de empresa
+Salário
+Endereço
  */

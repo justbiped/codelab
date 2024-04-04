@@ -1,0 +1,66 @@
+{
+  "postoDeGasolina": {
+    "nome": "Posto VITAO",
+    "registroANP": "123-456",
+    "endereco": {
+      "rua": "Rua Estácio de Sá, 196",
+      "cidade": "Belo Horizone",
+      "estado": "MG"
+    },
+    "bombasDeGasolina": [
+      {
+        "combustiveisAceitos": ["Gasolina", "Diesel", "Etanol"],
+        "potencia": "5000W",
+        "numeroRegistro": "001"
+      },
+      {
+        "combustiveisAceitos": ["Gasolina", "Etanol"],
+        "potencia": "4800W",
+        "numeroRegistro": "002"
+      },
+      {
+        "combustiveisAceitos": [ "Diesel"],
+        "potencia": "500W",
+        "numeroRegistro": "003"
+      }
+    ],
+    "funcionarios": [
+      {
+        "nome": "Sabrina",
+        "sobrenome": "Satto",
+        "idade": 28,
+        "tempoEmpresa": 4,
+        "salario": 2400,
+        "endereco": {
+          "rua": "Av.Contorno, 456",
+          "cidade": "Belo Horizone",
+          "estado": "MG"
+        }
+      },
+      {
+        "nome": "Ana Clara",
+        "sobrenome": "Villas Boas",
+        "idade": 23,
+        "tempoEmpresa": 1,
+        "salario": 1500,
+        "endereco": {
+          "rua": "Rua Guajajaras, 736",
+          "cidade": "Belo Horizone",
+          "estado": "MG"
+        }
+      },
+      {
+        "nome": "Marcela",
+        "sobrenome": "Veloso",
+        "idade": 25,
+        "tempoEmpresa": 3,
+        "salario": 2400,
+        "endereco": {
+          "rua": "Rua Cristal, 976",
+          "cidade": "Belo Horizone",
+          "estado": "MG"
+        }
+      }
+    ]
+  }
+}
