@@ -1,64 +1,64 @@
 {
-  "postoDeGasolina": {
-    "nome": "Posto VITAO",
-    "registroANP": "123-456",
-    "endereco": {
-      "rua": "Rua Estácio de Sá, 196",
-      "cidade": "Belo Horizone",
-      "estado": "MG"
+  "gasStation": {
+    "name": "Posto VITAO",
+    "registrationANP": "123-456",
+    "address": {
+      "street": "Rua Estácio de Sá, 196",
+      "city": "Belo Horizone",
+      "state": "MG"
     },
-    "bombasDeGasolina": [
+    "petrolStations": [
       {
-        "combustiveisAceitos": ["Gasolina", "Diesel", "Etanol"],
-        "potencia": "5000W",
-        "numeroRegistro": "001"
+        "fuelsAccepted": ["Gasolina", "Diesel", "Etanol"],
+        "power": "5000W",
+        "registrationNumber": "001"
       },
       {
-        "combustiveisAceitos": ["Gasolina", "Etanol"],
-        "potencia": "4800W",
-        "numeroRegistro": "002"
+        "fuelsAccepted": ["Gasolina", "Etanol"],
+        "power": "4800W",
+        "registrationNumber": "002"
       },
       {
-        "combustiveisAceitos": [ "Diesel"],
-        "potencia": "500W",
-        "numeroRegistro": "003"
+        "fuelsAccepted": [ "Diesel"],
+        "power": "500W",
+        "registrationNumber": "003"
       }
     ],
-    "funcionarios": [
+    "employees": [
       {
-        "nome": "Sabrina",
-        "sobrenome": "Satto",
-        "idade": 28,
-        "tempoEmpresa": 4,
-        "salario": 2400,
-        "endereco": {
-          "rua": "Av.Contorno, 456",
-          "cidade": "Belo Horizone",
-          "estado": "MG"
+        "name": "Sabrina",
+        "surname": "Satto",
+        "age": 28,
+        "timeCompany": 4,
+        "wage": 2400,
+        "address": {
+          "street": "Av.Contorno, 456",
+          "city": "Belo Horizone",
+          "state": "MG"
         }
       },
       {
-        "nome": "Ana Clara",
-        "sobrenome": "Villas Boas",
-        "idade": 23,
-        "tempoEmpresa": 1,
-        "salario": 1500,
-        "endereco": {
-          "rua": "Rua Guajajaras, 736",
-          "cidade": "Belo Horizone",
-          "estado": "MG"
+        "name": "Ana Clara",
+        "surname": "Villas Boas",
+        "age": 23,
+        "timeCompany": 1,
+        "wage": 1500,
+        "address": {
+          "street": "Rua Guajajaras, 736",
+          "city": "Belo Horizone",
+          "state": "MG"
         }
       },
       {
-        "nome": "Marcela",
-        "sobrenome": "Veloso",
-        "idade": 25,
-        "tempoEmpresa": 3,
-        "salario": 2400,
-        "endereco": {
-          "rua": "Rua Cristal, 976",
-          "cidade": "Belo Horizone",
-          "estado": "MG"
+        "name": "Marcela",
+        "surname": "Veloso",
+        "age": 25,
+        "timeCompany": 3,
+        "wage": 2400,
+        "address": {
+          "street": "Rua Cristal, 976",
+          "city": "Belo Horizone",
+          "state": "MG"
         }
       }
     ]
