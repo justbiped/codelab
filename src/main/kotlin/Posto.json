@@ -1,0 +1,66 @@
+{
+  "gasStation": {
+    "name": "Posto VITAO",
+    "registrationANP": "123-456",
+    "address": {
+      "street": "Rua Estácio de Sá, 196",
+      "city": "Belo Horizone",
+      "state": "MG"
+    },
+    "petrolStations": [
+      {
+        "fuelsAccepted": ["Gasolina", "Diesel", "Etanol"],
+        "power": "5000W",
+        "registrationNumber": "001"
+      },
+      {
+        "fuelsAccepted": ["Gasolina", "Etanol"],
+        "power": "4800W",
+        "registrationNumber": "002"
+      },
+      {
+        "fuelsAccepted": [ "Diesel"],
+        "power": "500W",
+        "registrationNumber": "003"
+      }
+    ],
+    "employees": [
+      {
+        "name": "Sabrina",
+        "surname": "Satto",
+        "age": 28,
+        "timeCompany": 4,
+        "wage": 2400,
+        "address": {
+          "street": "Av.Contorno, 456",
+          "city": "Belo Horizone",
+          "state": "MG"
+        }
+      },
+      {
+        "name": "Ana Clara",
+        "surname": "Villas Boas",
+        "age": 23,
+        "timeCompany": 1,
+        "wage": 1500,
+        "address": {
+          "street": "Rua Guajajaras, 736",
+          "city": "Belo Horizone",
+          "state": "MG"
+        }
+      },
+      {
+        "name": "Marcela",
+        "surname": "Veloso",
+        "age": 25,
+        "timeCompany": 3,
+        "wage": 2400,
+        "address": {
+          "street": "Rua Cristal, 976",
+          "city": "Belo Horizone",
+          "state": "MG"
+        }
+      }
+    ]
+  }
+}
