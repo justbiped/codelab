@@ -1,0 +1,20 @@
+{
+  "name": " Churrascaria do Chef",
+  "adress": {
+    "country": "Brasil",
+    "city": "Conceicao do Para",
+    "road": "Martinho Lemos",
+    "number": "1110",
+    "neighborhood": "centro",
+  "state": "Minas Gerais"
+  },
+  "itinerary":[
+   "day:Segunda",
+    "startHours:08:00",
+    "endHours:15:00",
+    "day:Terça",
+    "startHours:09:00",
+    "endHours:15:00"
+
+]
+}

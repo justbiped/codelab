@@ -1,0 +1,69 @@
+{
+  "name": "Posto Amigão",
+  "Adress": {
+    "city": "Conceicao do Para",
+    "rua": "Rua Martinho Lemos",
+    "number": "1110",
+    "neighbord": "Centro",
+    "registerAnp": "123456789"
+  },
+  "employee": [
+    {
+      "name": "joao bobo",
+      "dateOfBirth": "01/01/1990",
+      "nameMOm": "Maria helena",
+      "nameOfDad": "Jose Luiz",
+      "salary": "2000,00",
+      "Adress": {
+        "city": "Conceicao do Para",
+        "rua": "Rua dos funcionarios",
+        "number": "11",
+        "neighbord": "Parana"
+      }
+    },
+    {
+      "name": "Felipe Duarte",
+      "dateOfBirth": "01/05/1999",
+      "nameMOm": "Joana Feliz",
+      "nameOfDad": "Raimundo pinto",
+      "salary": "2000,00",
+      "Adress": {
+        "city": "Pitangui",
+        "rua": "Rua dos amigos",
+        "number": "101",
+        "neighbord": "Chapadao"
+      }
+    },
+    {
+      "name": "Fernanda Julia",
+      "dateOfBirth": "10/08/1975",
+      "nameMOm": "Maria joana",
+      "nameOfDad": "Charles Xavier ",
+      "salary": "2000,00",
+      "Adress": {
+        "city": "Para de Minas",
+        "rua": "Rua dos patos",
+        "number": "58",
+        "neighbord": "Jk"
+      }
+    }
+  ],
+  "bomb": [
+    {
+      "fuel": "gasolina,etanol ",
+      "nozzle": "06",
+      "series": "123456"
+    },
+    {
+      "fuel": "Diesel,Diesel-S10 ",
+      "nozzle": "06",
+      "series": "1111"
+    }
+  ]
+}
+
+
+
+
+
+

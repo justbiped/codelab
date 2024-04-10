@@ -1,6 +1,20 @@
 package org.example
 
+import java.io.File
+
 fun main() {
+
+val PostoDeCombustivelJso=File("/home/wilker/codelab/src/main/kotlin/PostoDeCombustivel.Json").readText()
+    println(PostoDeCombustivelJso)
+
+//val restauranteJso= File("/home/wilker/codelab/src/main/kotlin/restaurante.json").readText()
+  //  println(restauranteJso)
+//val gson = Gson()
+  //  val restaurant = gson.fromJson(restauranteJso,Restaurant::class.java)
+
+   // println(restaurant.name)
+   // println(restaurant.adress.city)
+   // println(restaurant.itinerary)
 }
 
 /**
