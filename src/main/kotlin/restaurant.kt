@@ -1,24 +1,30 @@
 package org.example
 
-class Restaurant (
- var name: String,
- var rating :Double
+ class Restaurant(
+ val name: String,
+ val adress: Adress,
+ val itinerary: List<String>
 )
 class Adress(
- var country:String,
- var city: String,
- var road: String,
- var number :String,
- var neighborhood: String,
- var state: String
+ val country:String,
+ val city: String,
+ val road: String,
+ val number :String,
+ val neighborhood: String,
+ val state: String
 
 )
-class Itinerary(
-    var start_Hourts:String,
-    var end_Hours:String,
-    var day:String
 
-)
+ class Itinerary(
+ val startHours:String,
+ val endHours:String,
+ val day:String,
+ )
+
+
+
+
+
 
 
 
