@@ -35,11 +35,13 @@ abstract class Shape(open val name: String, val color: String, val area: Double)
 }
 
 class Square(color: String, area: Double) : Shape("Square", color, area)
+
 class Circle(color: String, area: Double) : Shape("Circle", color, area) {
     override val name: String get() = "Edgar"
 }
 
 class Triangle(color: String, area: Double) : Shape("Triangle", color, area)
+
 class Losangle(color: String, area: Double) : Shape("Losangle", color, area) {
     override fun draw() {
         println(
