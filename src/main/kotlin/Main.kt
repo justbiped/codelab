@@ -1,6 +1,31 @@
 package org.example
 
 fun main() {
+    // Fiz o parse do shape json para o objeto ShapeDto
+    val shapeDto = ShapeDto("Unknown", "red", 30.0)
+    val mapper = ShapeMapper()
+    val shape = mapper.mapToDomain(shapeDto)
+    shape.draw()
+
+    val shapes = listOf<Shape>(
+        Circle("blue", 10.0),
+        Circle("yellow", 13.0),
+        Square("black", 100.0),
+        Triangle("orange", 20.0),
+        Losangle("white", 15.0)
+    )
+
+    println()
+    println()
+    println()
+    println()
+    shapes.forEach { shape ->
+        shape.draw()
+    }
+}
+
+fun drawShape(shape: Shape) {
+    shape.draw()
 }
 
 /**
@@ -22,3 +47,15 @@ fun main() {
  *
  * O parser de JSON a ser usado é o GSON, sua dependencia deve ser adicionada no arquivo build.gradle.kts... aprenda :sunglass:
  */
+
+
+DTO - Objeto de transferencia de dados
+- ShapeDto
+
+Mapear DTO para o domínio usando um mapper
+- Para esse mapeamento, precisamos identificar o tipo do objeto, caso tenhamos uma hierarquia
+- No caso do shape, usamos o name
+- E se não tivermos algum campo para identificar o tipo?
+-- A gente cria o campo tipo
+Polimorfismo
+- override, sobrescrever o método to tipo genérico
